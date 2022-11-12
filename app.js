@@ -1,3 +1,10 @@
+
+var host = "kirstenpoulsgaard.dk"
+if (window.location.host == host && window.location.protocol != "https:") {
+  window.location.protocol = "https:"
+}
+
+
 let currenturl=new URL(window.location.href);
 const txtcontent=document.querySelector(".txtcontent"); 
 
