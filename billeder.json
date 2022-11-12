@@ -1,0 +1,449 @@
+[
+    {
+    "filename": "2001.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90 x 90 cm.",
+    "order": 1,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2002.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120 x 120 cm.",
+    "order": 1,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2003.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70 x 70 cm.",
+    "order": 1,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2004.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90 x 90 cm.",
+    "order": 1,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2005.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 46,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2006.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 6,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2007.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"100 x 100 cm.",
+    "order": 1,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2008.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"120 x 120 cm.",
+    "order": 8,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2009.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"90 x 90 cm.",
+    "order": 9,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2010.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 1,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2011.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"80 x 90 cm.",
+    "order": 11,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2012.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 12,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2013.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"50 x 50 cm.",
+    "order": 13,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2014.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"85 x 85 cm.",
+    "order": 14,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2015.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 15,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2016.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"150 x 150 cm.",
+    "order": 16,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2017.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"60 x 60 cm.",
+    "order": 17,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2018.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 18,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2019.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"60 x 60 cm.",
+    "order": 19,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2020.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"90 x 90 cm.",
+    "order": 20,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2021.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"50 x 50 cm.",
+    "order": 21,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2022.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"160 x 160 cm.",
+    "order": 22,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2023.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90 x 130 cm.",
+    "order": 23,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2024.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"90 x 130 cm.",
+    "order": 24,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2025.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"130 x 130 cm.",
+    "order": 25,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2026.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"50 x 50 cm.",
+    "order": 26,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2027.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 27,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2028.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"120 x 120 cm.",
+    "order": 28,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2029.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"",
+    "order": 29,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2030.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 30,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2031.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"100 x 100 cm.",
+    "order": 31,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2032.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 32,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2033.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"50 x 50 cm.",
+    "order": 33,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2034.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"80 x 80 cm.",
+    "order": 34,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2035.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"90 x 90 cm.",
+    "order": 35,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2036.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"50 x 50 cm.",
+    "order": 36,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2037.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 37
+    },
+    {
+    "filename": "2038.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 38,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2039.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 39,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2040.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"40 x 40 cm.",
+    "order": 40,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2041.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"90 x 90 cm.",
+    "order": 41,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2042.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"130 x 130 cm.",
+    "order": 42,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2043.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100 x 100 cm.",
+    "order": 43,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2044.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70 x 70 cm.",
+    "order": 44,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2045.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"50 x 50 cm.",
+    "order": 45,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    }
+]
