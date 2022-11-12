@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+<!--     
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> 
+-->
+    <meta name="theme-color" content="#a8b2b3"> 
+    <meta name="description" content="Kirsten Poulsgaard">
+
+    <title>Kirsten Poulsgaard - Galleri</title>
+    <link rel="stylesheet" href="/style.css"> 
+    <script src="/navbar.js" defer></script> 
+    <script src="/app.js" defer></script> 
+    <style>
+        #buttons {
+            /* display:inline;  */
+           /*  float: right; */
+            /* padding-top:10px; */
+        /*     border:solid red 1px; */
+        }
+
+        button {
+            cursor: pointer;
+            padding: 12px 4px;
+            margin-right: 3px;
+            background: transparent;
+            color:var(--font-color-menu);            
+            border:none;            
+            text-transform: uppercase;
+            /*  border:solid red 1px;*/
+        }
+
+        button:disabled {
+            color: var(--font-color-menuactive);
+            cursor: auto;
+        }
+        button:hover:enabled{
+            color: var(--font-color-menuhover);
+        }
+
+
+
+        h1{display:inline  }
+        h2{
+            font-size: larger; 
+            margin-bottom: 10px;
+        }
+
+        #overskrift {
+            text-transform: uppercase;
+            margin-bottom: 18px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 0 30px;  /* Ved lille skærmbredde sættes padding left right */
+        }
+
+        .grid-container {
+            margin-top:35px;  
+            width:100%;       
+            display: grid;
+            grid-template-columns: 1fr  ;
+            grid-auto-flow: row;
+            gap: 40px;
+            align-items: flex-end; 
+            /* border:solid green 1px; */
+        }
+
+        .grid-container > div {
+            width: 100%; 
+            height: auto;
+            display: block;   
+        }
+
+        .grid-container > div>a> img {
+            width: 100%; 
+        }
+
+
+        @media only screen and (min-width: 500px) {
+            .grid-container {
+                grid-template-columns: repeat(2,1fr) ;
+            }
+
+            section {
+                padding:initial;  
+            }
+
+            #buttons {
+                display:inline;
+                float: right;    
+            }
+        }
+
+        @media only screen and (min-width: 800px) {
+            .grid-container {
+                grid-template-columns: repeat(3,1fr) ;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            .grid-container {
+                grid-template-columns: repeat(4,1fr) ;
+            }
+        }
+
+        @media only screen and (min-width: 1500px) {
+            .grid-container {
+                grid-template-columns: repeat(5,1fr) ;
+            }
+        }
+
+        @media only screen and (min-width: 1800px) {
+            .grid-container {
+                grid-template-columns: repeat(6,1fr) ;
+            }
+        }
+
+        @media only screen and (min-width: 2100px) {
+            .grid-container {
+                grid-template-columns: repeat(7,1fr) ;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+<header>
+	<nav class="navbar">
+	</nav>
+</header>
+    <section>
+         <h1>Galleri</h1> 
+         <div id="buttons">
+            <button id="btnAlle" disabled="true">Værker</button> 
+            <button id="btnTilSalg">Værker til salg</button>
+        </div>
+
+        <div class="grid-container">
+
+        </div>
+    </section>
+
+
+    <footer>
+        
+    </footer>
+<script>
+
+    function displayImages(data,kuntilsalg){
+        //console.log(data);
+        document.querySelector(".grid-container").innerHTML=data
+            .filter((data)=>{
+                if(kuntilsalg){
+                    return data.hidden!==true && data.sold!=true
+                }
+                return data.hidden!==true 
+            })
+            .sort((a, b) => (a.order > b.order) ? 1 : -1)
+            .map((item)=>{
+                if(kuntilsalg){
+                    return    `
+                        <div>
+                                <a href="/billede.html#id=${item.filename}">
+                                    <img src="/billeder/${item.filename}" alt="Kirsten Poulsgaard">
+                                </a>  
+                                <span style="float:left">${item.price}</span><span style="float:right">${item.size}</span>
+                                <br/ style="clear:both"><br/>                                                    
+                        </div>                        
+                        `  
+                }
+                else {
+                    return    `
+                        <div>
+                                <a href="/billede.html#id=${item.filename}">
+                                    <img src="/billeder/${item.filename}" alt="Kirsten Poulsgaard">
+                                </a>                 
+                        </div>
+                        
+                        `  
+                }
+            })
+            .join("\n");    
+            
+            
+    }
+
+   
+    const btnAlle=document.getElementById("btnAlle");
+    const btnTilSalg=document.getElementById("btnTilSalg");
+
+    let myJson=[];
+    fetch('/billeder.json')
+    .then((response) => response.json())
+    .then((json) =>  {
+       myJson=json;
+       //console.log(myJson);
+       displayImages(json);        
+    })
+    .catch(err=>console.error(err));
+
+    btnAlle.addEventListener("click",()=>{
+        btnAlle.disabled = true;
+        btnTilSalg.disabled = false;
+        displayImages(myJson,false);
+    })
+
+    btnTilSalg.addEventListener("click",()=>{
+        btnAlle.disabled = false;
+        btnTilSalg.disabled = true;
+        displayImages(myJson,true);
+
+    })
+
+</script>
+    
+</body>
+
+</html>
