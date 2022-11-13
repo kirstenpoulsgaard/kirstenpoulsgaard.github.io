@@ -52,11 +52,23 @@ h2 {
   color:var(--font-color-mailaddress);
 }
 
+.someicon { 
+  width: 40px;
+  height:40px;
+  /* border: solid 1px red;*/ 
+/*   padding: 10px;
+  padding-left: 0; */
+  margin-right: 20px;;
+}
+
 img {
  /*   border: solid red 2px;*/
  
   max-width: 100%;
 }
+
+
+
 
 
 @media only screen and (min-width: 600px) {          
