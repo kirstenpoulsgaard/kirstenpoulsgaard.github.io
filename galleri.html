@@ -174,7 +174,7 @@
                 return data.hidden!==true 
             })
             .sort((a, b) => (a.order > b.order) ? 1 : -1)
-            .map((item)=>{
+            .map((item,index)=>{
 		
 		let lazyloading="";
 		if(index>9){
