@@ -1,12 +1,12 @@
 
-<img src="/billeder/2003.jpeg"  loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/2003.jpeg" alt="Kirsten Poulsgaard">
 
 
-<img src="/billeder/2004.jpeg"  loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/2004.jpeg"  alt="Kirsten Poulsgaard">
 
 
 
-<img src="/billeder/img016.jpeg"  loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/img016.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>Galleri Molevit den 2. - 14. maj 2023 </h2>
 Fra den 2. - 14. maj 2023 udstiller jeg mine billeder i Galleri Molevit, Jens Klarups Vej 1, 9900 Skagen. Oplysninger om fernisering og åbningstider følger i løbet af foråret.
@@ -14,7 +14,7 @@ Fra den 2. - 14. maj 2023 udstiller jeg mine billeder i Galleri Molevit, Jens Kl
 
 
 
-<img src="/billeder/img001.jpeg"  loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/img001.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>Åbne døre 2023 - Korntoften 78, 7100 Vejle</h2>
 Jeg udstiller mine billeder til Åbne Døre i Vejle og omegn den 9. og 10. september 2023 på Korntoften 78, hvor jeg bor og også har mit atelier. 
