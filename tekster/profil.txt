@@ -1,4 +1,4 @@
-<img src="/billeder/img010.jpeg"  loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/img010.jpeg" alt="Kirsten Poulsgaard">
 
 
 Autodidakt billedkunstner
