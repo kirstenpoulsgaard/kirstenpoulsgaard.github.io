@@ -1,11 +1,11 @@
 
-<img src="/billeder/2003.jpeg" alt="Kirsten Poulsgaard">
+<img src="/billeder/2000-900.jpeg"  alt="Kirsten Poulsgaard">
 
 
-<img src="/billeder/2004.jpeg"  alt="Kirsten Poulsgaard">
+<img src="/billeder/2003-900.jpeg" alt="Kirsten Poulsgaard">
 
 
-<img src="/billeder/2000.jpeg"  alt="Kirsten Poulsgaard">
+<img src="/billeder/2004-900.jpeg"  alt="Kirsten Poulsgaard">
 
 
 
