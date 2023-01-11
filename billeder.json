@@ -1,5 +1,15 @@
 [
     {
+    "filename": "2000.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"150 x 120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
     "filename": "2001.jpeg",
     "price": "",
     "sold": false,
