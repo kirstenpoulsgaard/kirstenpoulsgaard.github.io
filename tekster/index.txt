@@ -1,7 +1,3 @@
-<img src="/billeder/img023.jpeg"  alt="Kirsten Poulsgaard">
-Foråret er på vej og jeg maler billeder til udstillingen i Galleri Molevit i Skagen fra den 2. - 14. maj. Her et nyt billede badet i eftermiddagssolens sidste stråler.
-
-
 <img src="/billeder/2000.jpeg"  alt="Kirsten Poulsgaard">
 
 
@@ -13,6 +9,12 @@ Foråret er på vej og jeg maler billeder til udstillingen i Galleri Molevit i S
 
 <h2>Galleri Molevit den 2. - 14. maj 2023 </h2>
 Fra den 2. - 14. maj 2023 udstiller jeg mine billeder i Galleri Molevit, Jens Klarups Vej 1, 9900 Skagen. Oplysninger om fernisering og åbningstider følger i løbet af foråret.
+
+
+<img src="/billeder/img023.jpeg"  alt="Kirsten Poulsgaard">
+
+<h2>Foråret er på vej </h2>
+Jeg maler billeder til udstillingen i Galleri Molevit i Skagen fra den 2. - 14. maj. Her et nyt billede badet i eftermiddagssolens sidste stråler.
 
 
 
