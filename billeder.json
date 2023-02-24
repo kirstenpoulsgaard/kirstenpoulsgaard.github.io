@@ -1,5 +1,15 @@
 [
     {
+    "filename": "1998.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"100 x 100 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
     "filename": "1999.jpeg",
     "price": "",
     "sold": false,
