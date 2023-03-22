@@ -1,4 +1,4 @@
-<img src="/billeder/2000.jpeg"  alt="Kirsten Poulsgaard">
+<img src="/billeder/1995.jpeg"  alt="Kirsten Poulsgaard">
 
 
 <img src="/billeder/2004.jpeg"  alt="Kirsten Poulsgaard">
