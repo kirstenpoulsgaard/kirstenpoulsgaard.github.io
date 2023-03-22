@@ -1,4 +1,44 @@
-[
+[  
+    {
+    "filename": "1994.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70x70 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "1995.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70x70 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "1996.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"50x50 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "1997.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"100x100 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
     {
     "filename": "1998.jpeg",
     "price": "",
