@@ -1,7 +1,7 @@
 [  
     {
     "filename": "1993.jpeg",
-    "price": 8000,
+    "price": "8000",
     "sold": false,
     "size":"90x90 cm.",
     "order": 0,
