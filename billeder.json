@@ -1,4 +1,15 @@
 [  
+    
+    {
+    "filename": "1993.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90x90 cm.",
+    "order": 8000,
+    "title":"",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
     {
     "filename": "1994.jpeg",
     "price": "",
