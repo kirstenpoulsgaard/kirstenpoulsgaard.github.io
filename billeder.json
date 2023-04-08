@@ -11,7 +11,7 @@
     },
     {
     "filename": "1994.jpeg",
-    "price": "",
+    "price": "5.500 kr.",
     "sold": false,
     "size":"70x70 cm.",
     "order": 0,
@@ -22,7 +22,7 @@
     {
     "filename": "1995.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"70x70 cm.",
     "order": 0,
     "title":"",
@@ -31,7 +31,7 @@
     },
     {
     "filename": "1996.jpeg",
-    "price": "",
+    "price": "3.500 kr.",
     "sold": false,
     "size":"50x50 cm.",
     "order": 0,
@@ -41,7 +41,7 @@
     },
     {
     "filename": "1997.jpeg",
-    "price": "",
+    "price": "9.500 kr.",
     "sold": false,
     "size":"100x100 cm.",
     "order": 0,
@@ -51,7 +51,7 @@
     },
     {
     "filename": "1998.jpeg",
-    "price": "",
+    "price": "3.500 kr.",
     "sold": false,
     "size":"50x50 cm.",
     "order": 0,
@@ -61,7 +61,7 @@
     },
     {
     "filename": "1999.jpeg",
-    "price": "",
+    "price": "9.500 kr.",
     "sold": false,
     "size":"100 x 100 cm.",
     "order": 0,
@@ -71,7 +71,7 @@
     },
     {
     "filename": "2000.jpeg",
-    "price": "",
+    "price": "15.500 kr.",
     "sold": false,
     "size":"120 x 150 cm.",
     "order": 0,
@@ -81,7 +81,7 @@
     },
     {
     "filename": "2001.jpeg",
-    "price": "",
+    "price": "8.000 kr.",
     "sold": false,
     "size":"90 x 90 cm.",
     "order": 1,
@@ -91,7 +91,7 @@
     },
     {
     "filename": "2002.jpeg",
-    "price": "",
+    "price": "13.500 kr.",
     "sold": false,
     "size":"120 x 120 cm.",
     "order": 1,
@@ -101,7 +101,7 @@
     },
     {
     "filename": "2003.jpeg",
-    "price": "",
+    "price": "5.500 kr.",
     "sold": false,
     "size":"70 x 70 cm.",
     "order": 1,
@@ -111,7 +111,7 @@
     },
     {
     "filename": "2004.jpeg",
-    "price": "",
+    "price": "8.000 kr.",
     "sold": false,
     "size":"90 x 90 cm.",
     "order": 1,
@@ -141,7 +141,7 @@
     },
     {
     "filename": "2007.jpeg",
-    "price": "",
+    "price": "9.500 kr.",
     "sold": false,
     "size":"100 x 100 cm.",
     "order": 1,
@@ -181,7 +181,7 @@
     },
     {
     "filename": "2011.jpeg",
-    "price": "",
+    "price": "7.000 kr.",
     "sold": false,
     "size":"80 x 90 cm.",
     "order": 11,
@@ -231,7 +231,7 @@
     },
     {
     "filename": "2016.jpeg",
-    "price": "",
+    "price": "17.500 kr.",
     "sold": false,
     "size":"150 x 150 cm.",
     "order": 16,
@@ -261,7 +261,7 @@
     },
     {
     "filename": "2019.jpeg",
-    "price": "",
+    "price": "4.500 kr.",
     "sold": false,
     "size":"60 x 60 cm.",
     "order": 19,
@@ -291,7 +291,7 @@
     },
     {
     "filename": "2022.jpeg",
-    "price": "",
+    "price": "19.000 kr.",
     "sold": false,
     "size":"160 x 160 cm.",
     "order": 22,
@@ -301,7 +301,7 @@
     },
     {
     "filename": "2023.jpeg",
-    "price": "",
+    "price": "10.500 kr.",
     "sold": false,
     "size":"90 x 130 cm.",
     "order": 23,
@@ -321,7 +321,7 @@
     },
     {
     "filename": "2025.jpeg",
-    "price": "",
+    "price": "14.500 kr.",
     "sold": false,
     "size":"130 x 130 cm.",
     "order": 25,
@@ -331,7 +331,7 @@
     },
     {
     "filename": "2026.jpeg",
-    "price": "",
+    "price": "3.500 kr.",
     "sold": false,
     "size":"50 x 50 cm.",
     "order": 26,
@@ -381,7 +381,7 @@
     },
     {
     "filename": "2031.jpeg",
-    "price": "",
+    "price": "9.500 kr.",
     "sold": false,
     "size":"100 x 100 cm.",
     "order": 31,
@@ -508,7 +508,7 @@
     },
     {
     "filename": "2044.jpeg",
-    "price": "",
+    "price": "5.500 kr.",
     "sold": false,
     "size":"70 x 70 cm.",
     "order": 44,
