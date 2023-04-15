@@ -1,4 +1,14 @@
-[  
+[   
+    {
+    "filename": "1992.jpeg",
+    "price": "13.500 kr.",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
     {
     "filename": "1993.jpeg",
     "price": "8.000 kr.",
