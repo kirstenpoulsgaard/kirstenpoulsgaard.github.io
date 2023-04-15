@@ -1,7 +1,7 @@
 <img src="/billeder/2007.jpeg"  alt="Kirsten Poulsgaard">
 
 
-<img src="/billeder/1998.jpeg"  alt="Kirsten Poulsgaard">
+<img src="/billeder/2010.jpeg"  alt="Kirsten Poulsgaard">
 
 
 
