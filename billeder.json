@@ -1,10 +1,10 @@
 [
     {
     "filename": "1990.jpeg",
-    "price": "13.500 kr.",
+    "price": "5.500 kr.",
     "sold": false,
     "size":"70x70 cm.",
-    "order": 5.500,
+    "order": 0,
     "title":"",
     "teknik":"Olie på lærred",
     "hidden":false
