@@ -1,11 +1,14 @@
-<img src="/billeder/1991.jpeg"  alt="Kirsten Poulsgaard">
-
-
 <img src="/billeder/2007.jpeg"  alt="Kirsten Poulsgaard">
 
 
 <img src="/billeder/2010.jpeg"  alt="Kirsten Poulsgaard">
 
+
+
+<img src="/billeder/img025.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
+
+<h2>Nye dobbelte kort </h2>
+Jeg har netop fået nye kort ind af døren. I første omgang bliver de solgt på udstillingen på Galleri Molevit i Skagen. 
 
 
 <img src="/billeder/img016.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
