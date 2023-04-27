@@ -11,8 +11,8 @@
     },
     {
     "filename": "1991.jpeg",
-    "price": "16.500 kr.",
-    "sold": false,
+    "price": "",
+    "sold": true,
     "size":"140x140 cm.",
     "order": 0,
     "title":"",
