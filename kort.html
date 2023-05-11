@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+	-->
+    <meta name="google-site-verification" content="7JLPaO62PRi_2zqkDqaNbb_GNiRPx4bVmZntuNTNa1Q" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+	
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+<!--     
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> 
+-->
+	
+    <meta name="theme-color" content="#a8b2b3"> 
+    <meta name="description" content="Kirsten Poulsgaard">
+
+    <title>Kort</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/navbar.js" defer></script>
+    <script src="/app.js" defer></script>
+
+
+
+    <style>
+        input[type=number] {
+            width: 80px;
+        }
+        input[type=submit] {
+            padding: 8px;
+            margin-top: 12px;;
+        }
+
+        #formular {
+            border:solid black 2px !important;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+
+        #ialtparagraph {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+       
+    </nav>
+    <section>
+        <h1>Bestilling af kort</h1>
+        <p>
+            <img src="/billeder/kortogkonvolut.jpeg" alt="Kort og konvolut"><br/>
+            <br/>
+            Kortene er Offset trykte på 300 g mat papir og måler 14,5 x 14,5 cm. De leveres med konvolut pakket i cellofanposer</p>
+        <p>
+            <br/>
+            1 til 2 kort 20 kr pr. stk.<br>
+            3 til 9 kort 15 kr. pr. stk.<br>
+            10 kort eller derover 12 kr. pr stk.<br>
+            <br>
+            Forsendelse koster 39 kr. Fri forsendelse ved bestilling over 400 kr.
+        </p>
+        <p>Kort bestilles i nedenstående mail-formular. Formularen genererer en mail, som du kan sende via din egen mail.</p>
+        <p>Betaling fortages vha. MobilPay på 30118733 Kirsten Poulsgaard. Når betalingen er registreret sendes kortene</p>
+        <p>Du er også altid velkommen til at komme forbi Korntoften 78 i Vejle, hvor du kan købe kort og/eller se mine billeder</p>
+
+        </p>
+
+        <div class="txtcontent">
+        </div>
+
+        <br/>
+
+        <form onsubmit="submitForm()"  method="get" enctype="text/plain">
+      
+        <br>
+
+
+        <div id="formular" >
+            <h2 >Bestillingsformular</h2>
+            <table>
+                <tr>
+                    <td><img src="/billeder/1998.jpeg" width="200" alt="kort01"></td>
+                    <td>Kort 01:<br><input class="kortantal" type="number" min="0" max="100" name="kort01" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/1997.jpeg" width="200" alt="kort02"></td>
+                    <td>Kort 02:<br><input class="kortantal" type="number" min="0" max="100" name="kort02" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/2007.jpeg" width="200" alt="kort03"></td>
+                    <td>Kort 03:<br><input class="kortantal" type="number" min="0" max="100" name="kort03" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/2004.jpeg" width="200" alt="kort04"></td>
+                    <td>Kort 04:<br><input class="kortantal" type="number" min="0" max="100" name="kort04" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/2003.jpeg" width="200" alt="kort05"></td>
+                    <td>Kort 05:<br><input class="kortantal" type="number" min="0" max="100" name="kort05" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/1999.jpeg" width="200" alt="kort06"></td>
+                    <td>Kort 06:<br><input class="kortantal" type="number" min="0" max="100" name="kort06" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/1995.jpeg" width="200" alt="kort07"></td>
+                    <td>Kort 07:<br><input class="kortantal" type="number" min="0" max="100" name="kort07" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/1993.jpeg" width="200" alt="kort08"></td>
+                    <td>Kort 08:<br><input class="kortantal" type="number" min="0" max="100" name="kort08" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/2002.jpeg" width="200" alt="kort09"></td>
+                    <td>Kort 09:<br><input class="kortantal" type="number" min="0" max="100" name="kort09" placeholder="Antal"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="/billeder/2032.jpeg" width="200" alt="kort10"></td>
+                    <td>Kort 10:<br><input class="kortantal" type="number" min="0" max="100" name="kort10" placeholder="Antal"></td>
+                </tr>
+
+
+                <tr>
+                    <td span="2">
+
+
+                    </td>
+
+                </tr>
+            </table>
+
+            <p id="ialtparagraph">
+
+                        <input type="text" name="name" id="name" placeholder="Navn" required> <br/>            
+                        <input type="text" name="address" id="addresse" placeholder="Addresse" required>  <br/>                                          
+                        <input type="text" name="zip" id="zip" placeholder="Postnummer og by" required> <br/> 
+                         <br/>  
+
+
+                   <span id="numberOfCarts">0</span> kort á <span id="enhedspris">0</span> kr. = <span id="prisforkortene"></span> kr.<br>
+                   Forsendelse <span id="forsendelse">39</span> kr. (fri forsendelse ved køb for over 400 kr.)<br>
+                   I alt <span id="prisialt"></span> kr. <br>             
+                <input type="submit" value="Åben formular i mail">
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
+</body>
+
+<script>
+    const numbers=document.querySelectorAll("input[type=number]");
+    const numberOfCarts=document.getElementById("numberOfCarts");
+    const enhedspristxt=document.getElementById("enhedspris");
+    const prisforkortene=document.getElementById("prisforkortene");
+    const ialtparagraph=document.getElementById("ialtparagraph");
+    const forsendelse=document.getElementById("forsendelse");
+    const prisialt=document.getElementById("prisialt");
+
+    numbers.forEach(element => {
+        element.addEventListener("change", ()=>{           
+            countCarts();
+        });
+        
+    });
+
+    function countCarts(){
+        let counter=0;
+        let enhedspris=0;
+        let forsendelsespris=39;
+
+        numbers.forEach(element => {
+            
+            if(element.value){
+                counter=counter+parseInt(element.value);
+            }            
+        });     
+
+        if(counter>0){
+            ialtparagraph.style.display="block";
+            if(counter<3){
+                enhedspris=20;
+            }
+            else if(counter<10) {
+
+                enhedspris=15;
+            }
+            else {
+                enhedspris=12;
+            }
+            enhedspristxt.innerText=enhedspris;
+
+            if(counter*enhedspris>=400){
+                forsendelsespris=0;
+                
+            }
+
+        }
+        else {
+            ialtparagraph.style.display="none";
+        }
+
+        numberOfCarts.innerText=counter;
+        prisforkortene.innerText=counter*enhedspris;
+        forsendelse.innerText=forsendelsespris;
+        prisialt.innerText=counter*enhedspris+forsendelsespris;
+    }
+
+
+
+    function submitForm(){
+        const name = document.getElementById("name").value;
+        const address = document.getElementById("addresse").value;        
+        const zip = document.getElementById("zip").value;
+
+
+
+let uri = `mailto:kirstenpoulsgaard@gmail.com?subject=Bestilling af kort&body=
+Kort sendes til denne adresse:
+============
+Navn: ${name}
+Adresse: ${address}
+Postnummer og by: ${zip}
+
+Betaling:
+============
+Antal kort: ${numberOfCarts.innerText}
+Pris pr. kort: ${enhedspristxt.innerText}
+Pris for kortene: ${prisforkortene.innerText} kr.
+Forsendelse: ${forsendelse.innerText} kr.
+Pris i alt: ${prisialt.innerText} kr.
+
+`;
+
+
+
+
+        let encoded = encodeURI(uri);
+
+        window.open(encoded);
+
+
+    }
+
+
+</script>
+
+
+</html>
