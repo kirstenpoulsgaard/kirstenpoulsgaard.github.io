@@ -14,7 +14,7 @@ Jeg er tilstede hver dag i udstillingens åbningstid.
 
 <h2>Nye dobbelte kort </h2>
 Jeg har netop fået nye kort ind af døren. I første omgang bliver de solgt på udstillingen på Galleri Molevit i Skagen. 
-
+<a title="Kort" target="_blank" href="https://kirstenpoulsgaard.dk/kort">Kort</a>
 
 
 <img src="/billeder/img001.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
