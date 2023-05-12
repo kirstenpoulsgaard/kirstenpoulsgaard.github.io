@@ -26,12 +26,19 @@
 
 
     <style>
+
+        input[type=text] {
+            width: 250px;
+        }
+
         input[type=number] {
             width: 80px;
         }
         input[type=submit] {
             padding: 8px;
-            margin-top: 12px;;
+            margin-top: 12px;
+            
+            background-color: lightgrey;
         }
 
         #formular {
@@ -126,13 +133,13 @@
                         <input type="text" name="name" id="name" placeholder="Navn" required> <br/>            
                         <input type="text" name="address" id="addresse" placeholder="Addresse" required>  <br/>                                          
                         <input type="text" name="zip" id="zip" placeholder="Postnr. og by" required> <br/> 
-                         <br/>  
+                        <br/>
 
-
-                   <span id="numberOfCarts">0</span> kort á <span id="enhedspris">0</span> kr. = <span id="prisforkortene"></span> kr.<br>
-                   Forsendelse <span id="forsendelse">39</span> kr. (fri forsendelse ved køb for over 400 kr.)<br>
-                   I alt <span id="prisialt"></span> kr. <br>             
-                <input type="submit" value="Åben formular i mail">
+                <span id="numberOfCarts">0</span> kort á <span id="enhedspris">0</span> kr. = <span id="prisforkortene"></span> kr.<br>
+                Forsendelse <span id="forsendelse">39</span> kr. <span style="font-size: small;">(fri forsendelse ved køb for over 400 kr.)</span><br>
+                I alt <span id="prisialt" style="font-weight: bold;"></span> kr.<br>            
+                <input type="submit" value="Åben bestilling i dit mail-program"><br/>
+                <span style="font-size: small;">Der genereres en mail-kladde, som åbnes i dit mail-program. Herfra kan du sende bestillingen.</span>
             </p>
         </div>
     </section>
