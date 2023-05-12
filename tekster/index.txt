@@ -2,7 +2,7 @@
 
 <h2>Nye dobbelte kort </h2>
 Jeg har netop fået nye kort ind af døren. De kan bestilles her på hjemmesiden. 
-<a title="Kort" target="_blank" href="https://kirstenpoulsgaard.dk/kort">Bestil kort</a>
+<a title="Kort" target="_blank" href="https://kirstenpoulsgaard.dk/kort.html">Bestil kort</a>
 
 
 
