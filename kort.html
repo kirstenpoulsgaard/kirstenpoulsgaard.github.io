@@ -85,7 +85,7 @@
 
         <br/>
 
-        <form onsubmit="submitForm()"  method="get" enctype="text/plain">
+        <form  id="myForm" method="get" enctype="text/plain">
       
         <br>
 
@@ -95,52 +95,52 @@
             <table>
                 <tr>
                     <td><img src="/billeder/1998.jpeg" width="200" alt="kort01"></td>
-                    <td>Kort 01:<br><input class="kortantal" type="number" min="0" max="100" name="kort01" placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
+                    <td>Kort 01:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 01" " placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/1997.jpeg" width="200" alt="kort02"></td>
-                    <td>Kort 02:<br><input class="kortantal" type="number" min="0" max="100" name="kort02" placeholder="Antal"></td>
+                    <td>Kort 02:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 02"  placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/2007.jpeg" width="200" alt="kort03"></td>
-                    <td>Kort 03:<br><input class="kortantal" type="number" min="0" max="100" name="kort03" placeholder="Antal"></td>
+                    <td>Kort 03:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 03"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/2004.jpeg" width="200" alt="kort04"></td>
-                    <td>Kort 04:<br><input class="kortantal" type="number" min="0" max="100" name="kort04" placeholder="Antal"></td>
+                    <td>Kort 04:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 04"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/2003.jpeg" width="200" alt="kort05"></td>
-                    <td>Kort 05:<br><input class="kortantal" type="number" min="0" max="100" name="kort05" placeholder="Antal"></td>
+                    <td>Kort 05:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 05"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/1999.jpeg" width="200" alt="kort06"></td>
-                    <td>Kort 06:<br><input class="kortantal" type="number" min="0" max="100" name="kort06" placeholder="Antal"></td>
+                    <td>Kort 06:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 06"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/1995.jpeg" width="200" alt="kort07"></td>
-                    <td>Kort 07:<br><input class="kortantal" type="number" min="0" max="100" name="kort07" placeholder="Antal"></td>
+                    <td>Kort 07:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 07"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
                     <td><img src="/billeder/1993.jpeg" width="200" alt="kort08"></td>
-                    <td>Kort 08:<br><input class="kortantal" type="number" min="0" max="100" name="kort08" placeholder="Antal"></td>
+                    <td>Kort 08:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 08"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
-                    <td><img src="/billeder/2002.jpeg" width="200" alt="kort09"></td>
-                    <td>Kort 09:<br><input class="kortantal" type="number" min="0" max="100" name="kort09" placeholder="Antal"></td>
+                    <td><img src="/billeder/2002.jpeg" width="200" alt="Kort 09"></td>
+                    <td>Kort 09:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 09"   placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
                 <tr>
-                    <td><img src="/billeder/2032.jpeg" width="200" alt="kort10"></td>
-                    <td>Kort 10:<br><input class="kortantal" type="number" min="0" max="100" name="kort10" placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
+                    <td><img src="/billeder/2032.jpeg" width="200" alt="Kort 10"></td>
+                    <td>Kort 10:<br><input class="kortantal" type="number" min="0" max="1000" name="Kort 10"  placeholder="Antal" inputmode="numeric" pattern="[0-9]*"></td>
                 </tr>
 
 
@@ -151,7 +151,7 @@
 
                         <input type="text" name="name" id="name" placeholder="Navn" required> <br/>            
                         <input type="text" name="address" id="addresse" placeholder="Addresse" required>  <br/>                                          
-                        <input type="text" name="zip" id="zip" placeholder="Postnummer og by" required> <br/> 
+                        <input type="text" name="zip" id="zip" placeholder="Postnr. og by" required> <br/> 
                          <br/>  
 
 
@@ -169,6 +169,11 @@
 </body>
 
 <script>
+
+document.addEventListener('DOMContentLoaded',()=>{
+    document.getElementById("myForm").addEventListener("submit",handleForm);
+})
+
     const numbers=document.querySelectorAll("input[type=number]");
     const numberOfCarts=document.getElementById("numberOfCarts");
     const enhedspristxt=document.getElementById("enhedspris");
@@ -202,7 +207,6 @@
                 enhedspris=20;
             }
             else if(counter<10) {
-
                 enhedspris=15;
             }
             else {
@@ -210,9 +214,9 @@
             }
             enhedspristxt.innerText=enhedspris;
 
+            //Ved køb for mere end 400 kr. er der fri forsendelse
             if(counter*enhedspris>=400){
-                forsendelsespris=0;
-                
+                forsendelsespris=0;                
             }
 
         }
@@ -228,27 +232,43 @@
 
 
 
-    function submitForm(){
-        const name = document.getElementById("name").value;
-        const address = document.getElementById("addresse").value;        
-        const zip = document.getElementById("zip").value;
+    function handleForm(ev){
+        ev.preventDefault();
+        let myForm=ev.target;
+        let fd=new FormData(myForm);
 
+        let bestilling="";
+        for(let key of fd.keys()){            
+            if(key.indexOf("Kort")==0 && fd.get(key)>"0"){
+                bestilling=bestilling + `${key}: ${fd.get(key)} stk.\n`
+                console.log(key,fd.get(key));
+            }
+        }
 
 
 let uri = `mailto:kirstenpoulsgaard@gmail.com?subject=Bestilling af kort&body=
-Kort sendes til denne adresse:
-============
-Navn: ${name}
-Adresse: ${address}
-Postnummer og by: ${zip}
+
+Bestilling:
+=======================
+${bestilling}
 
 Betaling:
-============
-Antal kort: ${numberOfCarts.innerText}
+=======================
+I alt antal kort: ${numberOfCarts.innerText}
 Pris pr. kort: ${enhedspristxt.innerText}
 Pris for kortene: ${prisforkortene.innerText} kr.
 Forsendelse: ${forsendelse.innerText} kr.
 Pris i alt: ${prisialt.innerText} kr.
+
+Kort sendes til denne adresse:
+=======================
+Navn: ${fd.get("name")}
+Adresse: ${fd.get("address")}
+Postnr. og by: ${fd.get("zip")}
+
+
+Betaling fortages vha. MobilPay på 30118733 Kirsten Poulsgaard.
+
 
 `;
 
