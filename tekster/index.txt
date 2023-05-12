@@ -1,3 +1,10 @@
+<img src="/billeder/img025.jpeg" loading="lazy" alt="Nye dobbelte kort">
+
+<h2>Nye dobbelte kort </h2>
+Jeg har netop fået nye kort ind af døren. De kan bestilles her på hjemmesiden. 
+<a title="Kort" target="_blank" href="https://kirstenpoulsgaard.dk/kort">Bestil kort</a>
+
+
 
 <img src="/billeder/img029.jpeg" loading="lazy"  alt="Galleri Molevit">
 
@@ -8,13 +15,6 @@ Jeg er tilstede hver dag i udstillingens åbningstid.
 
 <img src="/billeder/img028.jpeg"  alt="Kirsten Poulsgaard">
 
-
-
-<img src="/billeder/img025.jpeg" loading="lazy" alt="Nye dobbelte kort">
-
-<h2>Nye dobbelte kort </h2>
-Jeg har netop fået nye kort ind af døren. I første omgang bliver de solgt på udstillingen på Galleri Molevit i Skagen. 
-<a title="Kort" target="_blank" href="https://kirstenpoulsgaard.dk/kort">Kort</a>
 
 
 <img src="/billeder/img001.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
