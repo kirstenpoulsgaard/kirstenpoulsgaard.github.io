@@ -41,6 +41,7 @@ section {
 }
 
 h1 {
+  
   text-transform: uppercase;
   margin-bottom: 18px;
 }
@@ -201,7 +202,8 @@ header {
 .navbar .menu a{
    text-decoration: none;
    color:var(--font-color-menu);
-   text-transform: uppercase;             
+   /*
+   text-transform: uppercase;  */           
 } 
 .navbar .menu a:hover{
 color:var(--font-color-menuhover); 
@@ -220,7 +222,7 @@ cursor:default;
 }
 
 .navbar .menu li:nth-child(1) {
- grid-column: 1/5;
+ grid-column: 1/6;
  font-size: larger;
  margin-bottom: 10px;    
  color:var(--font-color-menufirst);                  

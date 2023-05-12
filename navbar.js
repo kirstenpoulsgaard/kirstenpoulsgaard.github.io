@@ -10,7 +10,8 @@ fetch("/navbar.html")
        nav.innerHTML=data;
        let currenturl=new URL(window.location.href);
        const currentmenulink = document.querySelector(`[href="${currenturl.pathname}"]`);
-       let _txt=currentmenulink.innerHTML.toUpperCase();
+       //let _txt=currentmenulink.innerHTML.toUpperCase();
+       let _txt=currentmenulink.innerHTML;
        currentmenulink.parentNode.innerHTML=_txt;
     }
 );

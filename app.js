@@ -55,6 +55,17 @@ switch(currenturl.pathname) {
             }
         );
     break;
+    case "/kort.html":        
+        fetch("/tekster/kort.txt")
+        .then(
+            res=>res.text()
+        )
+        .then(    
+            data=>{  
+                txtcontent.innerHTML=data.replace(/(\r\n|\r|\n)/g, '<br>');;
+            }
+        );
+    break;
     case "/profil.html":        
         fetch("/tekster/profil.txt")
         .then(
