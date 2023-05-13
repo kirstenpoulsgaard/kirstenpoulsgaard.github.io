@@ -130,16 +130,19 @@
 
             <p id="ialtparagraph">
 
-                        <input type="text" name="name" id="name" placeholder="Navn" required> <br/>            
-                        <input type="text" name="address" id="addresse" placeholder="Addresse" required>  <br/>                                          
-                        <input type="text" name="zip" id="zip" placeholder="Postnr. og by" required> <br/> 
-                        <br/>
+                <input type="text" name="name" id="name" placeholder="Navn" required> <br/>            
+                <input type="text" name="address" id="addresse" placeholder="Addresse" required>  <br/>                                          
+                <input type="text" name="zip" id="zip" placeholder="Postnr. og by" required> <br/> 
+                <input type="checkbox" name="jeghenterselv" id="jeghenterselv"> <label for="jeghenterselv" style="font-size: small;">Jeg henter selv kortene på Korntoften 78, 7100 Vejle</label>
+                <br/><br/>
+                <span style="font-size: small;">Der genereres en mail-kladde, som åbnes i dit mail-program. Herfra kan du sende bestillingen.</span><br/>
+                <br/>
 
                 <span id="numberOfCarts">0</span> kort á <span id="enhedspris">0</span> kr. = <span id="prisforkortene"></span> kr.<br>
-                Forsendelse <span id="forsendelse">39</span> kr. <span style="font-size: small;">(fri forsendelse ved køb for over 400 kr.)</span><br>
+                Forsendelse <span id="forsendelse">39</span> kr. <span style="font-size: small;">(fri forsendelse ved køb for over 400 kr eller ved afhentning på Korntoften 78, 7100 Vejle)</span><br>
                 I alt <span id="prisialt" style="font-weight: bold;"></span> kr.<br>            
                 <input type="submit" value="Åben bestilling i dit mail-program"><br/>
-                <span style="font-size: small;">Der genereres en mail-kladde, som åbnes i dit mail-program. Herfra kan du sende bestillingen.</span>
+
             </p>
         </div>
     </section>
@@ -162,12 +165,13 @@ document.addEventListener('DOMContentLoaded',()=>{
     const ialtparagraph=document.getElementById("ialtparagraph");
     const forsendelse=document.getElementById("forsendelse");
     const prisialt=document.getElementById("prisialt");
+    const jeghenterselv=document.getElementById("jeghenterselv");
 
+    jeghenterselv.addEventListener("change", countCarts);
     numbers.forEach(element => {
         element.addEventListener("change", ()=>{           
             countCarts();
-        });
-        
+        });        
     });
 
     function countCarts(){
@@ -196,7 +200,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             enhedspristxt.innerText=enhedspris;
 
             //Ved køb for mere end 400 kr. er der fri forsendelse
-            if(counter*enhedspris>=400){
+            if(counter*enhedspris>=400 || jeghenterselv.checked == true){
                 forsendelsespris=0;                
             }
 
@@ -213,19 +217,35 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-    function handleForm(ev){
-        ev.preventDefault();
-        let myForm=ev.target;
-        let fd=new FormData(myForm);
+function handleForm(ev){
+ev.preventDefault();
+let myForm=ev.target;
+let fd=new FormData(myForm);
 
-        let bestilling="";
-        for(let key of fd.keys()){            
-            if(key.indexOf("Kort")==0 && fd.get(key)>"0"){
-                bestilling=bestilling + `${key}: ${fd.get(key)} stk.\n`
-                console.log(key,fd.get(key));
-            }
-        }
+let bestilling="";
+for(let key of fd.keys()){            
+    if(key.indexOf("Kort")==0 && fd.get(key)>"0"){
+        bestilling=bestilling + `${key}: ${fd.get(key)} stk.\n`
+        console.log(key,fd.get(key));
+    }
+}
 
+let forsendelsetxt="";
+if(jeghenterselv.checked == true){
+forsendelsetxt=`Min adresse er:
+${fd.get("name")}
+${fd.get("address")}
+${fd.get("zip")}
+
+Men jeg henter selv kortene på Korntoften 78, 7100 Vejle`
+}
+else {
+forsendelsetxt=`Kort sendes til denne adresse:
+==============================
+${fd.get("name")}
+${fd.get("address")}
+${fd.get("zip")}`;
+}
 
 let uri = `mailto:kirstenpoulsgaard@gmail.com?subject=Bestilling af kort&body=
 
@@ -243,12 +263,8 @@ Pris i alt: ${prisialt.innerText} kr.
 
 Betaling fortages vha. MobilPay på 30118733 Kirsten Poulsgaard.
 
-Kort sendes til denne adresse:
-==============================
-Navn: ${fd.get("name")}
-Adresse: ${fd.get("address")}
-Postnr. og by: ${fd.get("zip")}
 
+${forsendelsetxt}
 
 
 
