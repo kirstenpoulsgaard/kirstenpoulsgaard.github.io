@@ -142,7 +142,7 @@
     {
     "filename": "2004.jpeg",
     "price": "8.000 kr.",
-    "sold": false,
+    "sold": true,
     "size":"90 x 90 cm.",
     "order": 1,
     "title":"",
