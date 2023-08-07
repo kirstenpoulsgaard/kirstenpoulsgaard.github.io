@@ -15,8 +15,8 @@ Billedet er fra ÅBNE ATELIER DØRE 2021, hvor keramiker Morten Østergaard-Ande
 
 <img src="/billeder/img025.jpeg" loading="lazy" alt="Nye dobbelte kort">
 
-<h2>Nye dobbelte kort </h2>
-Jeg har netop fået nye kort ind af døren. De kan købes til ÅBNE ATELIER DØRE, eller de kan bestilles her på hjemmesiden. 
+<h2>Dobbelte kort </h2>
+Kortene kan købes til ÅBNE ATELIER DØRE, eller de kan bestilles her på hjemmesiden. 
 <a title="Kort" href="https://kirstenpoulsgaard.dk/kort.html">Bestil kort</a>
 
 
