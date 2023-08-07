@@ -13,12 +13,12 @@ Vi håber på skønt sensommervejr, så vi kan byde på et glas vin eller en kop
 Billedet er fra ÅBNE ATELIER DØRE 2021, hvor keramiker Morten Østergaard-Andersen også var gæsteudstiller.
 
 
-<img src="/billeder/img025.jpeg" loading="lazy" alt="Nye dobbelte kort">
+<img src="/billeder/kortogkonvolut.jpeg" alt="Kort og konvolut"><h2>Dobbelte kort </h2>
 
-<h2>Dobbelte kort </h2>
 Kortene kan købes til ÅBNE ATELIER DØRE, eller de kan bestilles her på hjemmesiden. 
 <a title="Kort" href="https://kirstenpoulsgaard.dk/kort.html">Bestil kort</a>
 
+<img src="/billeder/img025.jpeg" loading="lazy" alt="Nye dobbelte kort">
 
 
 
