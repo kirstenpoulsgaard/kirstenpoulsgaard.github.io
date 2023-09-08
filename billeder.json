@@ -172,7 +172,7 @@
     {
     "filename": "2003.jpeg",
     "price": "5.500 kr.",
-    "sold": false,
+    "sold": true,
     "size":"70 x 70 cm.",
     "order": 1,
     "title":"",
