@@ -72,7 +72,7 @@
     {
     "filename": "1993.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"90x90 cm.",
     "order": 0,
     "title":"",
