@@ -364,7 +364,7 @@
     "price": "",
     "sold": false,
     "size":"160 x 160 cm.",
-    "order": hidden,
+    "order": 22,
     "title":"",
     "teknik":"Akryl på lærred",
     "hidden":false
