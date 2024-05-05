@@ -184,8 +184,8 @@
     "price": "",
     "sold": true,
     "size":"140x140 cm.",
-    "order": 17,
-    "title":"HÅb",
+    "order": 18,
+    "title":"",
     "teknik":"Olie på lærred",
     "hidden":false
     },
@@ -214,8 +214,8 @@
     "price": "",
     "sold": false,
     "size":"70x70 cm.",
-    "order": 18,
-    "title":"HÅb",
+    "order": 17,
+    "title":"Håb",
     "teknik":"Akryl på lærred",
     "hidden":false
     },
