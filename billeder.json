@@ -175,9 +175,9 @@
     "sold": false,
     "size":"70x70 cm.",
     "order": 16,
-    "title":"Vi mødes der",
+    "title":"",
     "teknik":"Olie på lærred",
-    "hidden":false
+    "hidden":True
     },
     {
     "filename": "1991.jpeg",
