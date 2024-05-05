@@ -1,5 +1,45 @@
 [  
     {
+    "filename": "1976.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x150 cm.",
+    "order": 12,
+    "title":"Et dirrende nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    }, 
+    {
+    "filename": "1975.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x150 cm.",
+    "order": 13,
+    "title":"Et dirrende nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },   
+    {
+    "filename": "1974.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x150 cm.",
+    "order": 14,
+    "title":"Et dirrende nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "1973.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x150 cm.",
+    "order": 15,
+    "title":"Et dirrende nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },     
+    {
     "filename": "1977.jpeg",
     "price": "",
     "sold": false,
