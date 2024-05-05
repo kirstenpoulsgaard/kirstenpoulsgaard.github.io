@@ -1,5 +1,15 @@
 [
     {
+    "filename": "1985.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70x70 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },  
+    {
     "filename": "1986.jpeg",
     "price": "",
     "sold": false,
