@@ -7,7 +7,7 @@ Jeg udstiller hos Galleri Juul, Pilegårdsvej 21, Annisse, 3200 Helsinge, den 11
 <h2>NYE BILLER</h2>
 Se de nyeste billeder under 'Galleri'
 
-<img src="/billeder/1982-900.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/1974-900.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>BESØG MIG I MIT ATELIER</h2>
 Man er fortsat velkommen til at besøge mig i mit atelier. Kontakt mig på tlf. 30 11 87 33 og lav en aftale.
