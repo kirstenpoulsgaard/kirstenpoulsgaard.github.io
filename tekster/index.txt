@@ -5,8 +5,7 @@ Jeg udstiller hos Galleri Juul, Pilegårdsvej 21, Annisse, 3200 Helsinge, den 11
 <img src="/billeder/img033.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>NYE BILLER</h2>
-De nyeste billeder kan ses under 'Galleri'
-<a title="Galleri" href="https://kirstenpoulsgaard.dk/galleri.html">Bestil kort</a>
+De nyeste billeder kan ses under <a title="Galleri" href="https://kirstenpoulsgaard.dk/galleri.html">Galleri</a>
 <img src="/billeder/1974-900.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>BESØG MIG I MIT ATELIER</h2>
