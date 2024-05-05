@@ -6,16 +6,12 @@ Jeg udstiller hos Galleri Juul, Pilegårdsvej 21, Annisse, 3200 Helsinge, den 11
 
 <h2>NYE BILLER</h2>
 De nyeste billeder kan ses under 'Galleri'
-
+<a title="Galleri" href="https://kirstenpoulsgaard.dk/galleri.html">Bestil kort</a>
 <img src="/billeder/1974-900.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>BESØG MIG I MIT ATELIER</h2>
 Man er fortsat velkommen til at besøge mig i mit atelier. Kontakt mig på tlf. 30 11 87 33 og lav en aftale.
-
 <img src="/billeder/img030.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
-
-
-<img src="/billeder/kortogkonvolut.jpeg" alt="Kort og konvolut">
 
 <h2>Dobbelte kort </h2>
 Jeg har fået lavet 10 af mine billeder som dobbelte kort. De er pakket med kuvert og kan købes til ÅBNE ATELIER DØRE, eller de kan bestilles her på hjemmesiden. 
