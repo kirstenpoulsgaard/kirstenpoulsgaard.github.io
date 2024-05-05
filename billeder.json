@@ -1,9 +1,89 @@
-[
+[  
+    {
+    "filename": "1977.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },      
+    {
+    "filename": "1978.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },      
+    {
+    "filename": "1979.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },      
+    {
+    "filename": "1980.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },      
+    {
+    "filename": "1981.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },      
+    {
+    "filename": "1982.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    }, 
+    {
+    "filename": "1983.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },      
+    {
+    "filename": "1984.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 0,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },     
     {
     "filename": "1985.jpeg",
     "price": "",
     "sold": false,
-    "size":"70x70 cm.",
+    "size":"120x120 cm.",
     "order": 0,
     "title":"",
     "teknik":"Olie på lærred",
