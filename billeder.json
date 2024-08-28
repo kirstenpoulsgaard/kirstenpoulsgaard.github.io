@@ -1,9 +1,10 @@
-[   {
+[   
+    {
     "filename": "1971.jpeg",
     "price": "",
     "sold": true,
     "size":"100x120 cm.",
-    "order": 12,
+    "order": 11,
     "title":"",
     "teknik":"Olie på lærred",
     "hidden":false
