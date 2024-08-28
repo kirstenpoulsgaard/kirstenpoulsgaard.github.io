@@ -22,7 +22,7 @@
     {
     "filename": "1974.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"70x70 cm.",
     "order": 14,
     "title":"Hvor ømheden er",
@@ -142,7 +142,7 @@
     {
     "filename": "1989.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"130x130 cm.",
     "order": 10,
     "title":"Tilbageblik",
