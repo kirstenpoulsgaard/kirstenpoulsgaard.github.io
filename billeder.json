@@ -2,6 +2,24 @@
     {
     "filename": "1971.jpeg",
     "price": "",
+    "sold": false,
+    "size":"100x100 cm.",
+    "order": 11,
+    "title":"Endelig sommer",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },     {
+    "filename": "1970.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"160X160 cm.",
+    "order": 11,
+    "title":"",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },     {
+    "filename": "1971.jpeg",
+    "price": "",
     "sold": true,
     "size":"100x120 cm.",
     "order": 11,
