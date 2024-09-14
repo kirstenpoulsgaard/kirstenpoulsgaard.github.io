@@ -8,7 +8,8 @@
     "title":"Endelig sommer",
     "teknik":"Olie på lærred",
     "hidden":false
-    },     {
+    },     
+    {
     "filename": "1970.jpeg",
     "price": "",
     "sold": false,
@@ -17,7 +18,8 @@
     "title":"",
     "teknik":"Olie på lærred",
     "hidden":false
-    },     {
+    },     
+    {
     "filename": "1971.jpeg",
     "price": "",
     "sold": true,
