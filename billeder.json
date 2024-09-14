@@ -52,7 +52,7 @@
     {
     "filename": "1977.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"120x150 cm.",
     "order": 8,
     "title":"Et dirrende nu",
@@ -112,17 +112,17 @@
     {
     "filename": "1983.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"40x40 cm.",
     "order": 2,
-    "title":"Morgenlys",
+    "title":"Morgenlys1",
     "teknik":"Olie på lærred",
     "hidden":false
     },      
     {
     "filename": "1984.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"90x90 cm.",
     "order": 11,
     "title":"Det der har betydning",
@@ -162,7 +162,7 @@
     {
     "filename": "1988.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"50x50 cm.",
     "order": 18,
     "title":"",
