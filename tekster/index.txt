@@ -16,7 +16,7 @@ Jeg har i år været tilknyttet Galleri Juul i Nordsjælland. Billedet er fra ga
 <h2>NYE BILLEDER</h2>
 De nyeste billeder kan ses under <a title="Galleri" href="https://kirstenpoulsgaard.dk/galleri.html">Galleri</a>
 
-<img src="/billeder/1981-900.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/1969-900.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 <h2>BESØG MIG I MIT ATELIER</h2>
 Man er fortsat velkommen til at besøge mig i mit atelier - også når der ikke er Åbne atelierdøre! Kontakt mig på tlf. 30 11 87 33 og lav en aftale.
