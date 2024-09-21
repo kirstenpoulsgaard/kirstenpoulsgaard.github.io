@@ -305,7 +305,7 @@
     "sold": false,
     "size":"120x150 cm.",
     "order": 24,
-    "title":"",
+    "title":"På vej",
     "teknik":"Olie på lærred",
     "hidden":false
     },
@@ -462,7 +462,7 @@
     {
     "filename": "2016.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"150x150 cm.",
     "order": 40,
     "title":"",
