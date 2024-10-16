@@ -192,7 +192,7 @@
     {
     "filename": "1987.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"50x50 cm.",
     "order": 18,
     "title":"",
@@ -242,7 +242,7 @@
     {
     "filename": "1994.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"70x70 cm.",
     "order": 17,
     "title":"Håb",
