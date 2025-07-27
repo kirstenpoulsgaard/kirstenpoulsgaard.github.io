@@ -768,5 +768,25 @@
     "title":"",
     "teknik":"Akryl på lærred",
     "hidden":false
+    },
+    {
+    "filename": "2047.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"120x120 cm.",
+    "order": 70,
+    "title":"Vi finder en vej",
+    "teknik":"Akryl på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2048.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90x90 cm.",
+    "order": 70,
+    "title":"Ukendt land",
+    "teknik":"Akryl på lærred",
+    "hidden":false
     }
 ]
