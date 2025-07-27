@@ -262,7 +262,7 @@
     {
     "filename": "1996.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"50x50 cm.",
     "order": 20,
     "title":"",
@@ -322,7 +322,7 @@
     {
     "filename": "2002.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"120x120 cm.",
     "order": 26,
     "title":"",
@@ -762,7 +762,7 @@
     {
     "filename": "2046.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"50x50 cm.",
     "order": 70,
     "title":"",
