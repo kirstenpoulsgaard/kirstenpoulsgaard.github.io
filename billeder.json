@@ -852,7 +852,7 @@
     {
     "filename": "2055.jpeg",
     "price": "",
-    "sold": false,
+    "sold": true,
     "size":"70x70 cm.",
     "order": 1,
     "title":"Himlen brænder",
