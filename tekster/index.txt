@@ -1,11 +1,10 @@
-<h2>Galleri Juul på toppen af Danmark</h2>
-Galleri Grenen / Grenen Kunstmuseum
+<h2>Galleri Artlife by Sommer</h2>
 
-Oplev Galleri Juuls sommerudstilling i Skagen, hvor 25 af galleriets kunstnere udstiller. Udstillingens sidste dag er den 17. august
+Et udvalg af mine malerier og kunsttryk kan i 2026 ses og købes i Galleri Artlife by Sommer i Juelsminde
 
-<img src="/billeder/img042.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/Artlife.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
-<img src="/billeder/img041.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/Artlife2.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 
 
