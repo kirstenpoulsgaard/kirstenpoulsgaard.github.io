@@ -774,7 +774,7 @@
     "price": "",
     "sold": false,
     "size":"120x120 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Vi finder en vej 2",
     "teknik":"Akryl på lærred",
     "hidden":false
@@ -784,7 +784,7 @@
     "price": "",
     "sold": false,
     "size":"90x90 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Ukendt land 1",
     "teknik":"Akryl på lærred",
     "hidden":false
@@ -794,7 +794,7 @@
     "price": "",
     "sold": false,
     "size":"130x130 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Mistede dig for længe siden",
     "teknik":"Akryl og olie på lærred",
     "hidden":false
@@ -804,7 +804,7 @@
     "price": "",
     "sold": false,
     "size":"70x70 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Vi finder en vej 1",
     "teknik":"Akryl på lærred",
     "hidden":false
@@ -814,7 +814,7 @@
     "price": "",
     "sold": false,
     "size":"90x90 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Hvor ømheden er",
     "teknik":"Olie på lærred",
     "hidden":false
@@ -824,7 +824,7 @@
     "price": "",
     "sold": false,
     "size":"90x130 cm.",
-    "order": 1,
+    "order": 2,
     "title":"",
     "teknik":"Olie på lærred",
     "hidden":false
@@ -834,7 +834,7 @@
     "price": "",
     "sold": false,
     "size":"70x70 cm.",
-    "order": 1,
+    "order": 2,
     "title":"",
     "teknik":"Olie på lærred",
     "hidden":false
@@ -844,7 +844,7 @@
     "price": "",
     "sold": false,
     "size":"90x90 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Lyse nætter",
     "teknik":"Olie på lærred",
     "hidden":false
@@ -854,7 +854,7 @@
     "price": "",
     "sold": true,
     "size":"70x70 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Himlen brænder",
     "teknik":"Olie på lærred",
     "hidden":false
@@ -864,8 +864,58 @@
     "price": "",
     "sold": false,
     "size":"70x70 cm.",
-    "order": 1,
+    "order": 2,
     "title":"Lyset vender tilbage",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2057.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"100x100 cm.",
+    "order": 1,
+    "title":"Og solen gik ned",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2058.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90x90 cm.",
+    "order": 1,
+    "title":"Et stille nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2059.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70x70 cm.",
+    "order": 1,
+    "title":"Et stille nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2060.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"70x70 cm.",
+    "order": 1,
+    "title":"Et stille nu",
+    "teknik":"Olie på lærred",
+    "hidden":false
+    },
+    {
+    "filename": "2061.jpeg",
+    "price": "",
+    "sold": true,
+    "size":"90x90 cm.",
+    "order": 1,
+    "title":"Himlen over os er rød",
     "teknik":"Olie på lærred",
     "hidden":false
     }
