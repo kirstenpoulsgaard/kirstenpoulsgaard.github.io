@@ -918,5 +918,15 @@
     "title":"Himlen over os er rød",
     "teknik":"Olie på lærred",
     "hidden":false
+    },
+    {
+    "filename": "2062.jpeg",
+    "price": "",
+    "sold": false,
+    "size":"90x130 cm.",
+    "order": 1,
+    "title":"Håb",
+    "teknik":"Olie på lærred",
+    "hidden":false
     }
 ]
