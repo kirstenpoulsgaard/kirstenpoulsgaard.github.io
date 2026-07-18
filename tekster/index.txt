@@ -4,7 +4,7 @@ Et udvalg af mine malerier og kunsttryk kan i 2026 ses og købes i Galleri Artli
 
 <img src="/billeder/Artlife.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
-<img src="/billeder/Artlife2.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
+<img src="/billeder/Artlife1.jpeg" loading="lazy"  alt="Kirsten Poulsgaard">
 
 
 
